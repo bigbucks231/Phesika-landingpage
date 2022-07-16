@@ -47,6 +47,7 @@
   --fs-5: 16px;
   --fs-6: 15px;
   --fs-7: 14px;
+  --fs-8: 40px;
 
   --fw-500: 500;
   --fw-600: 600;
@@ -256,7 +257,7 @@ body { background: var(--white); }
 
 .hero-content { margin-bottom: 80px; }
 
-.hero-title { margin-bottom: 25px; }
+.hero-title { margin-bottom: 25px; font-size: var(--fs-8); font-weight: var(--fw-700)}
 
 .hero-text {
   color: var(--cool-gray);
@@ -479,6 +480,13 @@ body { background: var(--white); }
           rgba(0, 0, 0, 0.5));
 }
 
+/* FAQs */
+
+.features-faq {
+  padding-block: var(--section-padding);
+  
+}
+
 
 
 
@@ -487,7 +495,8 @@ body { background: var(--white); }
   #BLOG
 \*-----------------------------------*/
 
-.blog { padding-block: var(--section-padding); }
+.blog { padding-block: var(--section-padding); 
+  background: var(--ghost-white-1); }
 
 .blog .section-title { margin-bottom: 20px; }
 
@@ -556,7 +565,7 @@ body { background: var(--white); }
 
 .contact {
   padding-block: var(--section-padding);
-  background: var(--ghost-white-1);
+  
 }
 
 .contact .section-title { margin-bottom: 15px; }
